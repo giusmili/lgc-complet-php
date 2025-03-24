@@ -1,0 +1,102 @@
+@import url(./reset.css);
+
+/* palette couleur */
+
+:root{
+    --main-color: hwb(217 1% 76%);
+    --secondary-color: #353949;
+    --text-color: #fff;
+}
+
+.pictures{
+    max-width: 70rem;
+    margin: 5rem auto;
+}
+.pictures *{
+    width: 100%;
+    clip-path: circle(40%);
+    filter: grayscale(39%);
+}
+header{
+    h1{
+        text-align: center;
+        line-height: 8rem;
+        font-weight: 500;
+        font-size: 6rem;
+        padding: 2rem 0;
+    }
+}
+article{
+    max-width: 70rem;
+    margin: 0 auto;
+    p{
+        background-color: var(--secondary-color);
+        padding: .5rem 1rem;
+        text-align: justify; 
+        border-radius: .4rem;   
+    }
+    h2{
+        width: max-content;
+        padding: 1rem;
+        color: #222;
+        background-color: #ccc;
+        border-radius: .8rem .8rem 0 0;
+    }
+}
+article table{
+    width: 100%;
+    border: solid .1rem #ccc;
+    background-color: #fff;
+    color: #222;
+    border-collapse: collapse;
+    line-height: 4rem;
+    caption{
+        background-color: #6c5ce7;
+        color: #fff;
+        margin-top: .1rem;
+    }
+}
+
+article table th, article table td{
+    border-collapse: collapse;
+    border: solid .1rem #ccc;
+    padding: .5rem;
+}
+article table th{
+    background: #737272;
+    color: #FFF;
+    padding: 0;
+    font-weight: normal;
+}
+article table{
+    thead th:nth-of-type(1){
+    
+        color: #FFF;
+        width: 20%;
+    }
+    tbody td:nth-of-type(2){
+    
+        text-align: left;
+    }
+
+} 
+article table td:nth-child(1){
+    text-align: left;
+}
+article table td{
+    text-align: center;
+}
+
+aside{
+    background-color: #6c5ce7;
+    color: #f5c4fb;
+    max-width: 70rem;
+    margin: 3rem auto;
+    padding: 2rem;
+    text-align: center;
+    border-radius: .4rem;
+}
+footer *{
+    text-align: center;
+    padding: 2rem;
+}
