@@ -22,7 +22,8 @@
         </article>
         <aside>
             <blockquote>
-                <p>Description de l'article et l'analyse</p>
+                <p>Description de l'article et l'analyse. <br>
+                <a href="language.php">Lire plus &raquo;</a></p>
             </blockquote>
         </aside>
     </main>

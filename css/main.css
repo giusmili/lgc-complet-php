@@ -86,7 +86,9 @@ article table td:nth-child(1){
 article table td{
     text-align: center;
 }
-
+blockquote *{
+    color: #fff;
+}
 aside{
     background-color: #6c5ce7;
     color: #f5c4fb;
